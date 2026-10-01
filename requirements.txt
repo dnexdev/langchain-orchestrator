@@ -1,0 +1,7 @@
+# Runtime dependencies, pinned for reproducible builds.
+fastapi==0.142.1          # native SSE support (fastapi.sse.EventSourceResponse)
+uvicorn[standard]==0.54.0 # uvloop + httptools for a faster event loop and HTTP parser
+langchain==1.4.3          # init_chat_model (provider-agnostic model factory)
+langchain-core==1.6.6     # prompts, runnables, tools, output parsers
+langchain-openai==1.6.6   # default provider. Swap by installing another langchain-<provider>
+python-dotenv==1.2.3      # loads a local, git-ignored .env into os.environ

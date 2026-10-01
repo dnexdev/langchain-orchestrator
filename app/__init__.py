@@ -1,1 +1,1 @@
-"""streaming langchain orchestrator service"""
+"""Streaming LangChain orchestrator service."""
